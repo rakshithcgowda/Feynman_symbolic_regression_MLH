@@ -28,48 +28,46 @@ Ensure you have Python 3.x installed. You will also need the following Python li
 
 You can install the required libraries using:
 ```bash
-pip install -r requirements.txt
-Installation
-Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/feynman-phcregressor.git
-Navigate to the Project Directory:
+- `pip install -r requirements.txt`
+- Installation
+- Clone the Repository:
 
-bash
-Copy code
-cd feynman-phcregressor
-Install Dependencies:
+- bash
+- Copy code
+- `git clone https://github.com/yourusername/feynman-phcregressor.git`
+-Navigate to the Project Directory:
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Run Data Preprocessing:
+-bash
+-Copy code
+- `cd feynman-phcregressor`
+**Install Dependencies:**
 
-bash
-Copy code
-python preprocess.py
-Train the Model:
+- bash
+- Copy code
+- `pip install -r requirements.txt`
+- Usage
+- Run Data Preprocessing:
 
-bash
-Copy code
-python train.py
-Evaluate Results:
+- bash
+- Copy code
+- `python preprocess.py`
+**Train the Model:**
 
-bash
-Copy code
-python evaluate.py
-Results
-Results including model performance metrics and visualizations will be saved in the results directory.
+- bash
+- Copy code
+- `python train.py`
+**Evaluate Results:**
 
-Contributing
+- bash
+- Copy code
+- `python evaluate.py`
+- **Results**
+## Results including model performance metrics and visualizations will be saved in the results directory.
+
+## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
+## Acknowledgements
 The Feynman dataset is a valuable resource for testing symbolic regression models.
 Special thanks to the contributors and the community for their support and feedback.
